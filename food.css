@@ -393,7 +393,7 @@
 
   /* styling hero section */
   .hero {
-    background-image: url("../image/hero.jpeg");
+    background-image: url("./image/hero.jpeg");
     background-size: cover;
     /* background-color: red; */
   }
@@ -536,7 +536,7 @@
   }
 
   .chef {
-    background-image: url(../image/main.jpeg);
+    background-image: url(./image/main.jpeg);
     background-position: center;
     background-size: cover;
     display: flex;
