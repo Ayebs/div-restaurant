@@ -402,7 +402,6 @@
     font-family: "Parisienne", cursive;
     color: #fff;
     font-size: 3rem;
-    
   }
 
    .hero .hero_text {  /* can also be named as .hero_text */
@@ -624,7 +623,6 @@
     margin-bottom: 1rem;
     border: 1px grey solid;
     padding: 15px;
-    
   }
   
   .contact_form input:first-of-type {
@@ -663,7 +661,6 @@
     padding: 1rem 5rem; 
     background-color: rgb(35, 33, 35);
     color: #c9b288;
-    /* margin-right: 10px; */
   }
 
   .copyright {
@@ -675,7 +672,7 @@
   .copyright i {
     gap: 2rem;
     display: block;
-    }
+  }
 
   .socials ul {
     display: flex;
@@ -832,7 +829,6 @@
       display: flex;
       height: 70px;
       padding: 1rem 3rem;
-      /* justify-content: space-between; */
     }
 
     .mid_text {
@@ -861,7 +857,6 @@
     .samples {
       display: flex;
       flex-direction: column;
-      /* justify-content: center; */
       align-items: center;
     }
 
@@ -872,7 +867,6 @@
     .sample img {
       width: 80px;
       height: 80px;
-      /* margin-left: 1rem; */
     }
 
     .sample_text {
@@ -908,7 +902,6 @@
     }
 
     .contact_div {
-      /* display: flex; */
       width: 100%;
       font-weight: 400;
       font-size: 12px;
@@ -925,9 +918,6 @@
     }
 
     .contact_form input, textarea {
-      /* display: block; */
-      /* flex-direction: column; */
-      /* gap: 20px; */
       width: 100%;
       background-color: transparent;
       margin-bottom: 0.5rem;
@@ -950,11 +940,9 @@
       padding: 1rem 5rem; 
       background-color: rgb(35, 33, 35);
       color: #c9b288;
-      /* margin-right: 10px; */
     }
 
   }
-
 
     /* second media query */
     @media only screen and (min-width: 600px) and (max-width:800px) { 
@@ -973,7 +961,6 @@
         padding: 1rem;
         align-items: center; 
       }
-
 
       .contact  {
         display: flex;
@@ -1033,12 +1020,6 @@
         transition: all 1s ease-in;
       }
   
-      /* .burger:has(input:checked) + nav ul li a {
-        border-bottom: 1px solid white;
-        display: block;
-        color: rgb(255, 165, 128);
-      } */
-  
       .burger {
         display: flex;
         flex-direction: column;
@@ -1071,7 +1052,6 @@
       .contact_div {
         width: 100%;
       }
-
   } 
 
 
